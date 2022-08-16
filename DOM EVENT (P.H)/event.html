@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    
+    <h1 onclick="console.log('h1 is clicked!')">Learning Click !</h1>
+
+    <!-- <button onclick="alert(7)">Click Here !</button> -->
+
+
+    <button onclick="document.body.style.backgroundColor='yellow'">Click Me!</button>
+    
+    <button onclick="makeBgTomato()">Click Me!</button>
+
+    <button id="blue-btn">Click Me!</button>
+    
+    
+    <button id="green-btn">Click Me!</button>
+
+
+    <button id="goldenrod-btn">Click Me!</button>
+
+
+    <button id="black-btn">Click Me!</button>
+
+
+    <button id="lawnGreen-btn">Click Me!</button>
+
+
+<p id="clicking-method"></p>
+<button onclick="handleJustFunctionClick()">Just function</button>
+<button id="handle-event">Direct Add Event Listener</button>
+
+<br>
+<br>
+
+<input id="name-Field" type="text" name="" id="">
+<button id="update-name">Update !</button>
+
+<br>
+<br>
+
+<h2>Add Your Comment!</h2>
+
+<section>
+    <h4>Your Comment!</h4>
+    <div id="comment-container">
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur porro, sequi nobis a rem. Reprehenderit perferendis cumque dolore asperiores itaque autem corrupti harum eaque, unde veritatis ipsum totam facere.</p>
+       
+        <p>Laboriosam eius, aliquam voluptates maxime neque officia tempora adipisci nobis ab ipsam inventore, nihil accusantium! Harum blanditiis accusamus provident voluptatem corporis, architecto facere labore iure commodi voluptates, rem deleniti maxime.</p>
+       
+    </div>
+
+    <div>
+        
+        <p>Add Your Comment!</p>
+       <textarea name="" id="new-comment" cols="60" rows="4"></textarea>
+        <br>
+        <button id="submit-comment">Post!</button>
+    </div>
+
+</section>
+
+<br>
+<br>
+
+<section>
+        <p id="display">Deleting This Line by clicking !</p>
+        <button id="delete-btn">Delete</button>
+
+</section>
+
+<br><br>
+
+<section>
+    <p id="display-box">Deleting this line by typing !</p>
+    <input type="text" name="" id="infoBox" placeholder="Type 'agree' to delete!">
+    <button id="btn-delete" disabled>Delete</button>
+</section>
+
+<br><br>
+<section>
+    <button id="mouse-move">Mouse Move</button>
+</section>
+
+    <script src="event.js"></script>
+</body>
+</html>
